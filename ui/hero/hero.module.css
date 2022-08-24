@@ -1,0 +1,56 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto 0;
+}
+
+.hi {
+  color: #444;
+  animation: 0.3s ease-out 0s 1 fade;
+}
+
+.text {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 5.5rem;
+  animation: 1s ease-out 0s 1 fade;
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+}
+
+.text span {
+  outline: none;
+  text-decoration: none;
+  background-image: linear-gradient(#79ffe1, #79ffe1);
+  background-size: 100% 1.3rem;
+  background-repeat: no-repeat;
+  background-position: left 0 bottom 13%;
+}
+
+.mail {
+  margin-top: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2rem;
+  animation: 2s ease-out 0s 1 fade;
+  text-decoration: none;
+}
+
+.link {
+  color: #022dff;
+  text-decoration: none;
+  border-bottom: 3px solid #022dff;
+  transition: border-color 0.1s ease-in-out;
+}
+
+.link:hover {
+  text-decoration: none;
+  border-color: transparent;
+}

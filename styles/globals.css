@@ -1,0 +1,42 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #79ffe1;
+  color: #000;
+}
+
+::-moz-selection {
+  background-color: #79ffe1;
+  color: #000;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 90rem;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  color: #0e0e0e;
+  font-size: 1.6rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans',
+    'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea,
+select,
+input,
+button {
+  outline: none;
+}
