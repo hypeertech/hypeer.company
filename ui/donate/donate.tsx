@@ -3,6 +3,10 @@ import s from './donate.module.css';
 
 export const list = [
   {
+    name: 'Bitcoin',
+    value: 'bc1qjqjmhs0rq2vcapmtvhp7yq9s9z277wfpu6k0q7',
+  },
+  {
     name: 'Dash',
     value: 'Xw9USTWaxgzrHwQutHvdBZRpUrPrY5NG2q',
   },
