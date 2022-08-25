@@ -14,7 +14,7 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED 1
-
+ENV NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID $GOOGLE_TAG_MANAGER_ID
 RUN npm run build
 
 # Production image, copy all the files and run next
